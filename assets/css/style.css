@@ -1286,7 +1286,7 @@ section {
 
 #footer .copyright {
   text-align: center;
-  float: left;
+  float: center;
 }
 
 #footer .credits {
