@@ -889,6 +889,7 @@ section {
   padding-top: 40px;
 }
 
+
 .cd .box {
   padding: 40px;
   margin-bottom: 30px;
@@ -896,6 +897,16 @@ section {
   background: #fff;
   text-align: center;
   position: relative;
+}
+.cd .box2 {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cd .featured-badge {
@@ -920,7 +931,7 @@ section {
 }
 
 .cd h4 {
-  font-size: 30px;
+  font-size: 25px;
   color: #fdc134;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
