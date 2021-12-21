@@ -146,9 +146,9 @@
         layoutMode: 'fitRows'
       });
 
-      let galerieFilters = select('#galerie-flters li', true);
+      let galerieFilters = select('#galerie-filters li', true);
 
-      on('click', '#galerie-flters li', function(e) {
+      on('click', '#galerie-filters li', function(e) {
         e.preventDefault();
         galerieFilters.forEach(function(el) {
           el.classList.remove('filter-active');
