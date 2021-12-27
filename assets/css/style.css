@@ -658,14 +658,14 @@ section {
   margin-bottom: 30px;
 }
 
-.galerie #galerie-flters {
+.galerie #galerie-filters {
   padding: 0;
   margin: 0 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-.galerie #galerie-flters li {
+.galerie #galerie-filters li {
   cursor: pointer;
   margin: 0 5px 5px 0;
   display: inline-block;
@@ -678,11 +678,11 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.galerie #galerie-flters li:hover, .galerie #galerie-flters li.filter-active {
+.galerie #galerie-filters li:hover, .galerie #galerie-filters li.filter-active {
   color: #fdc134;
 }
 
-.galerie #galerie-flters li:last-child {
+.galerie #galerie-filters li:last-child {
   margin-right: 0;
 }
 
