@@ -143,7 +143,8 @@
     if (galerieContainer) {
       let galerieIsotope = new Isotope(galerieContainer, {
         itemSelector: '.galerie-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        filter: '.filter-dupouy'
       });
 
       let galerieFilters = select('#galerie-filters li', true);
